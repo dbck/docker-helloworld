@@ -42,6 +42,6 @@ docker-compose push
 
 ```
 git checkout main
-git push origin/main
+git push
 git tag -a v1.0.0 -m "Release 1.0.0"
 ```

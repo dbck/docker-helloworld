@@ -10,6 +10,8 @@ on:
       - '**'        # matches every branch
     tags:
       - "v*.*.*"
+    schedule:
+      - cron: "0 22 * * *"
 
 jobs:
   build:

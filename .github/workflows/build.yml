@@ -96,7 +96,7 @@ jobs:
       run: echo ${{ steps.docker_build.outputs.digest }}
 
     - name: Create Release
-      if: ${{ steps.prep.outputs.release == 'true' }}
+      if: ${{ steps.prep.outputs.release == true }}
       uses: actions/create-release@latest
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

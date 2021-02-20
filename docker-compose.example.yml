@@ -1,6 +1,0 @@
-version: "3"
-services:
-  helloworld:
-    image: dbck/helloworld:latest
-    environment:
-      - TZ=Europe/Berlin

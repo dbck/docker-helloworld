@@ -40,8 +40,19 @@ docker-compose push
 
 # Build image and create a release
 
+## With message
+
 ```
 git checkout main
-git tag -a v1.0.0
+git tag -a v1.0.0 -m "Some text"
 git push origin v1.0.0
 ```
+
+## Without message
+
+```
+git checkout main
+git tag v1.0.0
+git push origin v1.0.0
+```
+

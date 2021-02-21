@@ -1,4 +1,4 @@
-FROM debian:10.7
+FROM debian:10.8
 
 LABEL maintainer "Dennis Boeckmann <dev@dbck.de>"
 LABEL description "Hello world."
